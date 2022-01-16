@@ -2,9 +2,9 @@ import React from "react";
 
 const Address = () => {
   const contactInfo = {
-    address: "123 Stree New York City, United States Of America 750065.",
-    mail: "ryo.kanazawa34@gmail.com",
-    phone: "",
+    address: "1-8-15 Aonocho, Nara City, Nara Prefecture 631-0841",
+    mail: "codemaster034@gmail.com",
+    phone: "+81 50 5539 9613",
   };
   return (
     <>
