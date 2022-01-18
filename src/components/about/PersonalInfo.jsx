@@ -9,17 +9,17 @@ const personalInfoContent = [
   { meta: "Address", metaInfo: "Kamisato, Okazaki, Japan" },
   { meta: "phone", metaInfo: "+81 50 5539 9613" },
   { meta: "Email", metaInfo: "codemaster034@gmail.com" },
-  { meta: "Skype", metaInfo: "live:.cid.1d65568c47ef835a" },
+  { meta: "Skype", metaInfo: "live:.cid.2aa1850fbe7d60ae" },
   { meta: "langages", metaInfo: "English" },
 ];
 
 const PersonalInfo = () => {
   return (
-    <ul className='about-list list-unstyled open-sans-font'>
+    <ul className="about-list list-unstyled open-sans-font">
       {personalInfoContent.map((val, i) => (
         <li key={i}>
-          <span className='title'>{val.meta}: </span>
-          <span className='value d-block d-sm-inline-block d-lg-block d-xl-inline-block'>
+          <span className="title">{val.meta}: </span>
+          <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">
             {val.metaInfo}
           </span>
         </li>
