@@ -91,8 +91,9 @@ const Contact = () => {
           {/* End .col */}
 
           <div className="col-12">
-            <button type="submit" className="button">
-              <span className="button-text">Send Message</span>
+            <button type="submit" className="button" disabled>
+              <span className="button-text">Coming Soon</span>
+              {/* //Send Message */}
               <span className="button-icon fa fa-send"></span>
             </button>
           </div>
