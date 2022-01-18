@@ -1,5 +1,5 @@
 export const heroContent = {
-  heroImage: "img/hero/dark.jpg",
+  heroImage: "img/hero/Ryo.jpg",
   heroMobileImage: "img-mobile",
   heroTitleName: "Ryo Kanazawa",
   heroDesignation: "DApp Developer",

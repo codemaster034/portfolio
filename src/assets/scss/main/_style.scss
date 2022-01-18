@@ -182,6 +182,7 @@ body.light .portfolio .slideshow ul > li:after {
 
 body.light .contact .contactform input[type="text"],
 body.light .contact .contactform input[type="email"],
+body.light .contact .contactform input[type="password"],
 body.light .contact .contactform textarea {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -1096,7 +1097,8 @@ body.light .contact .custom-span-contact a {
 }
 /* Form */
 .contact .contactform input[type="text"],
-.contact .contactform input[type="email"] {
+.contact .contactform input[type="email"],
+.contact .contactform input[type="password"] {
   border: 1px solid #111;
   width: 100%;
   background: #252525;

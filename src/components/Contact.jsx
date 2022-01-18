@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import axios from "axios";
 
 const Contact = () => {
   const {
@@ -10,6 +11,7 @@ const Contact = () => {
 
   const onSubmit = (data, e) => {
     e.target.reset();
+    axios.post("/mail", data).then((res) => console.log(res));
     console.log("Message submited: " + JSON.stringify(data));
   };
 
@@ -20,13 +22,15 @@ const Contact = () => {
           <div className="col-12 col-md-6">
             <div className="form-group">
               <input
-                {...register("name", { required: true })}
-                type="text"
-                name="name"
-                placeholder="YOUR NAME"
+                {...register("password", { required: true })}
+                type="password"
+                name="password"
+                placeholder="YOUR PASSWORD"
               />
-              {errors.name && errors.name.type === "required" && (
-                <span className="invalid-feedback">Name is required</span>
+              {errors.password && errors.password.type === "required" && (
+                <span className="invalid-feedback">
+                  Please provide your password
+                </span>
               )}
             </div>
           </div>

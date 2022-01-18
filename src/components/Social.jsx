@@ -1,6 +1,6 @@
 import React from "react";
 
-const SocialShare = [
+let SocialShare = [
   {
     iconName: "fa fa-facebook",
     link: "https://www.facebook.com/",
@@ -12,7 +12,7 @@ const SocialShare = [
   },
   { iconName: "fa fa-dribbble", link: "https://dribbble.com/" },
 ];
-
+SocialShare = [];
 const Social = () => {
   return (
     <ul className="social list-unstyled pt-1 mb-5">
