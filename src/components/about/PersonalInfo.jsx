@@ -8,7 +8,7 @@ const personalInfoContent = [
   { meta: "Freelance", metaInfo: "Available" },
   { meta: "Address", metaInfo: "Kamisato, Okazaki, Japan" },
   { meta: "phone", metaInfo: "+81 50 5539 9613" },
-  { meta: "Email", metaInfo: "codemaster034@gmail.com" },
+  { meta: "Email", metaInfo: "ryo.kanazawa34@gmail.com" },
   { meta: "Skype", metaInfo: "live:.cid.2aa1850fbe7d60ae" },
   { meta: "langages", metaInfo: "English" },
 ];
