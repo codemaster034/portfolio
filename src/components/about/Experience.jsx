@@ -2,17 +2,17 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   Sep 2020 - July 2021",
-    position: " Senior DApp Developer",
-    compnayName: "Plethori company",
-    details: `  Developed a number of tokens based on ERC20 and ERC721,NFT Marketplace, and lots of DeX
-and Defi projects on Ethereum, Optimistic, Harmony etc. `,
+    year: "May 2021 - Dec 2021",
+    position: " Senior Full-Stack Blockchain Developer",
+    compnayName: "Self-Employed",
+    details:
+      "Developed lots of DeFi projects like ERC721, ERC1155, NFT Marketplace, Dex and so on.",
   },
   {
-    year: "Sep 2018 - Aug 2020",
-    position: "Full Stack Web Developer",
+    year: "Sep 2018 - Dec 2019",
+    position: "Full-Stack Web Developer",
     compnayName: "Fuzzy.one",
-    details: `Implemented sign in/up page and also developed lots of sites using MERN Stack and Responsive design`,
+    details: `Structrued main projects and also developed lots of sites using MERN Stack and Responsive design`,
   },
   {
     year: "Sep 2017 - Jul 2018",
